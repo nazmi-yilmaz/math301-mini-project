@@ -38,8 +38,8 @@ function test(p, n) {
 
 // Simulates system with some ps and ns
 function simulate() {
-  let ps = [0.2, 0.4, 0.7]
-  let ns = [10, 100, 1000]
+  let ps = [0.1, 0.2, 0.3, 0.4, 0.5]
+  let ns = [100, 1000, 10000]
   ps.forEach(function (p, i) {
     ns.forEach(function (n, i2) {
       const { children, x } = test(p, n)
